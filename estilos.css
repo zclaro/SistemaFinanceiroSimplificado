@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 50px 0;
+  height: 100vh;
+}
+
+.container {
+  margin: 0 auto;
+  width: 50vw;
+}
+
+.formulario {
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+
+.formulario input,
+.formulario select,
+.formulario button {
+  margin: 0;
+  padding: 10px;
+}
+
+.formulario input,
+.formulario select {
+  width: 100%;
+}
+
+.formulario button {
+  width: 50%;
+}
+
+.formulario .margem {
+  margin: 0 5px 0 0;
+}
+
+#select-usuarios {
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+}
+
+#form-transacao {
+  margin: 0 0 10px;
+}
+
+#transacoes {
+  border-collapse: collapse;
+  text-align: left;
+  width: 100%;
+}
+
+tr {
+  border: 1px solid #aaa;
+  border-right: none;
+}
+
+th, td {
+  border-right: 1px solid #aaa;
+  padding: 10px;
+}
+
+thead, tfoot {
+  background: #f9f9f9;
+}
+
+tbody tr {
+  background: #fff;
+}
+
+tbody tr:nth-child(even) {
+  background: #eee;
+} 
